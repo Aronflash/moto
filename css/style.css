@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient( rgba(5, 7, 12, 0.75), rgba(5, 7 ,12, 0.75)),
+    url('/assets/img/images/imagen\ fondo.jfif') no-repeat center center fixed;
+    background-size: cover;  
+   
+ }
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    background:  linear-gradient(
+        90deg,
+
+        rgba(19,41,65,1) 100%
+    );
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #bab250;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a { 
+    font-size: 17px;
+    padding: 20px;
+    color: #dfdde0;  
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 100px;
+    color: #838586;
+}
+
+
+
+h3 {
+    color: #dfdde0;
+    font-family: 'bebas neue', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    border-top: 2px solid #ba815065;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 22px;
+}
+
+.link a {
+ font-size: 16px;
+ color: #c0c0c1;
+ display: block;
+ margin-bottom: 15px;
+}
+
