@@ -74,18 +74,6 @@ img {
     display: none;
 }
 
-.header-txt {
-    text-align: center;
-}
-
-.header-txt h1 {
-    font-family: 'bebas neue', sans-serif;
-    font-size: 100px;
-    color: #838586;
-}
-
-
-
 h3 {
     color: #dfdde0;
     font-family: 'bebas neue', sans-serif;
@@ -109,5 +97,38 @@ h3 {
  color: #c0c0c1;
  display: block;
  margin-bottom: 15px;
+}
+
+@media (max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #18171D;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .logo {
+        display: none;
+    }
+    
 }
 

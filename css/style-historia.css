@@ -65,6 +65,7 @@ img {
 .container .card:hover {
     height: 450px;
 }
+
 .container .card .images{
     position: relative;
     width: 220px;
@@ -100,12 +101,6 @@ img {
     margin-top: -40px;
     transition-delay: 0.3s;
 
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    min-height: 80vh;
 }
 
 .menu {
@@ -155,10 +150,40 @@ img {
     display: none;
 }
 
-h3 {
-    color: #dfdde0;
-    font-family: 'bebas neue', sans-serif;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
+@media (max-width:991px) {
 
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #18171D;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 100px 30px;
+    }
+
+}

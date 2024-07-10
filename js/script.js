@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
     // Declarar variables, esto es lo que va dentro de la tabla donde está el carrito
     const carrito = document.querySelector('#carrito tbody');
     const listaProductos = document.querySelector('#lista-1');
